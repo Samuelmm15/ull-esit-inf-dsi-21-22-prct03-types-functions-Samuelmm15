@@ -15,5 +15,10 @@ function isLeapYear(yearToEvaluate : number) : boolean {
   }
 }
 
-const result = isLeapYear(2000);
-console.log(`¿El año introducido es bisiesto? = ${result}`);
+const yearNumber : number = 1997;
+const result = isLeapYear(yearNumber);
+if (result === true) {
+  console.log(`El año introducido por teclado es bisiesto.`);
+} else if (result === false) {
+  console.log(`El año introducido por teclado no es bisiesto.`);
+}
