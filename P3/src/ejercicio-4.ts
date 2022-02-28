@@ -16,10 +16,10 @@ function isValidISBN(ISBNCode: string): boolean {
         auxiliaryResult = auxiliaryResult + auxiliary;
       }
     } else {
-      auxiliaryNumber ++;
+      auxiliaryNumber++;
     }
-    auxiliaryNumber --;
-    auxiliaryNumberISBN ++;
+    auxiliaryNumber--;
+    auxiliaryNumberISBN++;
   }
   console.log(auxiliaryResult);
   if ((auxiliaryResult % 11) === 0) {
