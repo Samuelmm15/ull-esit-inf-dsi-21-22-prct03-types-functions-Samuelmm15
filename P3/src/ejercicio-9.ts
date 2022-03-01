@@ -88,6 +88,7 @@ function decimalToRoman(decimalNumber: number): string {
   return result;
 }
 
+
 const decimalResult = romanToDecimal(`MCMXCV`);
 // eslint-disable-next-line max-len
 console.log(`EL número romano introducido convertido a decimal es ${decimalResult}`);
