@@ -1,4 +1,13 @@
-
+/**
+ * This function transform the Snake Case into Camel Case.
+ * @param stringToConvert Consists in the string to convert.
+ * @returns A string that is the result of the conversion.
+ * **Examples to test the program:**
+ * ```
+ * stringToConvert = `The_stealth_warrior`; // Start
+ * resultSnakeToCamel = `theStealthWarrior`; // Result
+ * ```
+ */
 function fromSnakeToCamelCase(stringToConvert: string): string {
   let i: number = 0;
   let resultString: string = ` `;
@@ -17,7 +26,16 @@ function fromSnakeToCamelCase(stringToConvert: string): string {
   };
   return resultString;
 }
-
+/**
+ * This function convert a Camel Case string into a Snake Case string.
+ * @param stringToConvert Consists in the string to convert.
+ * @returns A string that is the result of the conversion.
+ * **Examples to test the program:**
+ * ```
+ * stringToConvert = `theStealthWarrior`; // Start
+ * resultCamelToSnake = `the_stealth_warrior`; // Finish
+ * ```
+ */
 function fromCamelToSnakeCase(stringToConvert: string): string {
   let i: number = 0;
   let resultString: string = ` `;

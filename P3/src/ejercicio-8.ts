@@ -1,3 +1,25 @@
+/**
+ * This function calculates the damage of a attack of our Pokemon Combat.
+ * @param ourPokemon Consists in the type of our Pokemon.
+ * @param oponentPokemon Consists in the type of the oponent Pokemon.
+ * @param attackCapacity Cosists in the attack of our Pokemon.
+ * @param defendCapacity Consists in the defend of our Pokemon.
+ * @returns The damage of our Pokemon to the oponent Pokemon.
+ * **Examples to test the program:**
+ * ```
+ * ourPokemon = `hierba`; // Start
+ * oponentPokemon = `hierba`; // Start
+ * attackCapacity = 20; // Start
+ * defendCapacity = 10; // Start
+ * totalDamage = 50; // Result
+ * ---------------------------------
+ * ourPokemon = `agua`; // Start
+ * oponentPokemon = `fuego`; // Start
+ * attackCapacity = 50; // Start
+ * defendCapacity = 10; // Start
+ * totalDamage = 500; // Result
+ * ```
+ */
 function pokemonTrainer(ourPokemon: string, oponentPokemon: string,
     attackCapacity: number, defendCapacity: number): number {
   let damage: number = 0;
@@ -33,5 +55,5 @@ function pokemonTrainer(ourPokemon: string, oponentPokemon: string,
   return damage;
 }
 
-const totalDamage = pokemonTrainer(`hierba`, `hierba`, 20, 10);
+const totalDamage = pokemonTrainer(`agua`, `fuego`, 50, 10);
 console.log(`El daño total causado es: ${totalDamage}`);

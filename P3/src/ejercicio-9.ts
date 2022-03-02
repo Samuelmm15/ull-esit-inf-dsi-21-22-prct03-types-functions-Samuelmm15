@@ -1,3 +1,16 @@
+/**
+ * This function converts a Roman number into a decimal number.
+ * @param romanNumber Consist in the Roman number to covert.
+ * @returns The Decimal number that represents the Roman number.
+ * **Examples to test the program:**
+ * ```
+ * romanNumber = `MCMXCV`; // Start
+ * decimalResult = 1995; // Result
+ * ---------------------------------
+ * romanNumber = `MMXIV`; // Start
+ * decimalResult = 2014; // Result
+ * ```
+ */
 function romanToDecimal(romanNumber: string): number {
   let auxiliaryRomanNumber: number = 0;
   let i: number = 0;
@@ -51,6 +64,19 @@ function romanToDecimal(romanNumber: string): number {
   return result;
 }
 
+/**
+ * This function converts a decimal number into a Roman number.
+ * @param decimalNumber Consists in the decimal number to convert.
+ * @returns A string that is the Roman number.
+ * **Examples to test the program:**
+ * ```
+ * decimalNumber = 1995; // Start
+ * romanResult = `MCMXCV`: // Result
+ * ---------------------------------
+ * decimalNumber = 2014; // Start
+ * romanResult = `MMXIV`: // Result
+ * ```
+ */
 function decimalToRoman(decimalNumber: number): string {
   let result: string = ``;
   let auxiliaryResult: string;

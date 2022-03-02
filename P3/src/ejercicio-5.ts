@@ -1,5 +1,20 @@
-// ENCONTRAR EL MODO DE ORDENAR DE MANERA CORRECTA
-function inDescendingOrden(originalNumber: number): number {
+/**
+ * This function changes the order to a decending order of a number.
+ * @param originalNumber Consists in the number to change the order.
+ * @returns The number in decending order.
+ * **Examples to test the program:**
+ * ```
+ * originalNumber = 42145; // Start
+ * numberToConvert = 54421; // Result
+ * ---------------------------------
+ * originalNumber = 145263; // Start
+ * numberToConvert = 654321; // Result
+ * ---------------------------------
+ * originalNumber = 123456789; // Start
+ * numberToConvert = 987654321; // Result
+ * ```
+ */
+function inDescendingOrder(originalNumber: number): number {
   let i: number = 0;
   const originalNumberConverted = originalNumber.toString();
   const auxiliaryArray = [];
@@ -20,6 +35,6 @@ function inDescendingOrden(originalNumber: number): number {
   return auxiliaryResult;
 }
 
-const numberToConvert = inDescendingOrden(123456789);
+const numberToConvert = inDescendingOrder(123456789);
 console.log(`El valor introducido, en orden descendente es ${numberToConvert}`);
 
