@@ -1,27 +1,25 @@
 // ENCONTRAR EL MODO DE ORDENAR DE MANERA CORRECTA
 function inDescendingOrden(originalNumber: number): number {
-  const originalNumberAuxiliary = originalNumber.toString();
-  let i = 0;
-  let j = 0;
-  let descendingOrdenNumber: string = ``;
-  let auxiliary = 0;
-  while (j != originalNumberAuxiliary.length) {
-    while (i != originalNumberAuxiliary.length) {
-      const convertNumber: number = +originalNumberAuxiliary[i];
-      if (convertNumber >= auxiliary) {
-        auxiliary = convertNumber;
-      }
-      i++;
-    }
-    descendingOrdenNumber = descendingOrdenNumber + auxiliary.toString();
-    i = 0;
-    j++;
+  let i: number = 0;
+  const originalNumberConverted = originalNumber.toString();
+  const auxiliaryArray = [];
+  while (i != originalNumberConverted.length) {
+    auxiliaryArray.push(originalNumberConverted[i]);
+    i++;
   }
-  const descendingOrdenNumberConverted: number = +descendingOrdenNumber;
-  return descendingOrdenNumberConverted;
+  auxiliaryArray.sort();
+  i = 0;
+  let auxiliary: string = ` `;
+  let result: string = ` `;
+  while (i != auxiliaryArray.length) {
+    auxiliary = auxiliaryArray[i];
+    result = auxiliary + result;
+    i++;
+  }
+  const auxiliaryResult: number = +result;
+  return auxiliaryResult;
 }
 
-const numberToConvert = inDescendingOrden(42145);
+const numberToConvert = inDescendingOrden(123456789);
 console.log(`El valor introducido, en orden descendente es ${numberToConvert}`);
 
-// descendingOrdenNumber = descendingOrdenNumber + convertNumber.toString();
