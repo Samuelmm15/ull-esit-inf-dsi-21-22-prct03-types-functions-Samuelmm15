@@ -27,7 +27,7 @@ function isLeapYear(yearToEvaluate : number) : boolean {
 const yearNumber : number = 1997;
 const result = isLeapYear(yearNumber);
 if (result === true) {
-  console.log(`El año introducido por teclado es bisiesto.`);
+  console.log(`El año introducido es bisiesto.`);
 } else if (result === false) {
-  console.log(`El año introducido por teclado no es bisiesto.`);
+  console.log(`El año introducido no es bisiesto.`);
 }
