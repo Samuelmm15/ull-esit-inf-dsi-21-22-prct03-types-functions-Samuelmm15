@@ -131,7 +131,7 @@ finalizar, si no es divisible por 4 no se trata de un año bisiesto.
 Con todo esto anterior, se pudo realizar la programación de dicha función, por tanto, se puede comprobar en la ejecución del 
 programa, que esto es cierto:
 
-[imagen]
+![ejercicio-1](https://user-images.githubusercontent.com/72341631/156637798-f04e126a-859a-4ea2-af12-d51c8e160f61.png)
 
 ### /// Ejercicio 2 - Notación decimal y factorial <a name="id5"></a>
 
@@ -166,7 +166,7 @@ function factorialToDecimal(factorialNotation: string): number {
 
 Por último, se puede ver su ejecución de esto anterior:
 
-[imagen]
+![ejercicio-2](https://user-images.githubusercontent.com/72341631/156637868-e9f9ca5d-4e5a-436b-b619-537b731b1d18.png)
 
 ### /// Ejercicio 3 - Conversor de estilo <a name="id6"></a>
 
@@ -227,7 +227,7 @@ function fromCamelToSnakeCase(stringToConvert: string): string {
 
 Finalmente, para visualizar el funcionamiento del programa, se tiene la imagen a continuación:
 
-[imagen]
+![ejercicio-3](https://user-images.githubusercontent.com/72341631/156637909-d148399e-b8c7-4391-a10c-680bfec99649.png)
 
 ### /// Ejercicio 4 - Conversor ISBN <a name="id7"></a>
 
@@ -279,7 +279,7 @@ function isValidISBN(ISBNCode: string): boolean {
 
 Para finalizar, se puede comprobar el funcionamiento del programa:
 
-[imagen]
+![ejercicio-4](https://user-images.githubusercontent.com/72341631/156637941-afee71cd-fbaa-45e1-99c7-f0e22c2094da.png)
 
 ### /// Ejercicio 5 - Orden descendente <a name="id8"></a>
 
@@ -321,7 +321,7 @@ function inDescendingOrder(originalNumber: number): number {
 
 Como se puede observar en la imagen a continuación, la salida del programa para cualquier entrada a la función es:
 
-[imagen]
+![ejercicio-5](https://user-images.githubusercontent.com/72341631/156637969-14be7ad5-413d-4f75-80c8-fd80113e185d.png)
 
 ### /// Ejercicio 6 - Contando IPs <a name="id9"></a>
 
@@ -368,7 +368,7 @@ function ipsInRange(firstIPNumber: string, secondIPNumber:string): number {
 
 Como se puede ver a continuación, la ejecución de dicho programa resulta:
 
-[imagen]
+![ejercicio-6](https://user-images.githubusercontent.com/72341631/156638015-c2d9b78f-08a6-4182-b3e8-0bec04b78ac1.png)
 
 ### /// Ejercicio 7 - Wonder Woman <a name="id10"></a>
 
@@ -400,7 +400,7 @@ function wonderWoman(initialHeads: number, nValue: number,
 Como se puede observar, dependiendo de los valores introducidos inicialmente, permitiendo visualizar las distintas situaciones que 
 se pueden generar al atacar al ser mitológico Cerberus, se realiza la ejecución del programa de manera:
 
-[imagen]
+![ejercicio-7](https://user-images.githubusercontent.com/72341631/156638041-d11b447d-33b8-4ece-9c8d-7316857746ca.png)
 
 ### /// Ejercicio 8 - Entrenador Pokemon <a name="id11"></a>
 
@@ -460,7 +460,7 @@ function pokemonTrainer(ourPokemon: string, oponentPokemon: string,
 
 Como se puede observar a continuación, se puede comprobar el daño realizado por nuestro Pokemon de manera:
 
-[imagen]
+![ejercicio-8](https://user-images.githubusercontent.com/72341631/156638083-c20d51cf-6279-458b-841e-41d7ed702fb1.png)
 
 ### /// Ejercicio 9 - Astérix no entiende a estos romanos <a name="id12"></a>
 
@@ -579,7 +579,7 @@ function decimalToRoman(decimalNumber: number): string {
 A continuación, se tiene la ejecución de ambas funciones, pudiendo comprobar la transformación de los distintos números, en los 
 distintos formatos introducidos:
 
-[imagen]
+![ejercicio-9](https://user-images.githubusercontent.com/72341631/156638128-dca8c9f3-4c41-49e1-b2db-8fb521106f78.png)
 
 ### /// Ejercicio 10 - Distancia de Manhattan <a name="id13"></a>
 
@@ -604,7 +604,7 @@ function manhattanDistance(p1Coordinate: number, p2Coordinate: number,
 
 Para finalizar, se puede observar la distancia entre dos puntos tomados como ejemplo:
 
-[imagen]
+![ejercicio-10](https://user-images.githubusercontent.com/72341631/156638162-fc4241c7-54b5-44a6-adc7-156704c93c96.png)
 
 **En conclusión**, la realización de este primer proyecto autónomo, desarrollando 10 ejercicios distintos, ha permitido comprender 
 el funcionamiento, el desarrollo y el uso de las distintas herramientas que son necesarias para poder realizar proyectos 
