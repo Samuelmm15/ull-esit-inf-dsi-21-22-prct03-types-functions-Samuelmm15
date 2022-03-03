@@ -6,7 +6,13 @@
   a. [Ejercicio 1.](#id4) \
   b. [Ejercicio 2.](#id5) \
   c. [Ejercicio 3.](#id6) \
-  d. [Ejercicio 4.](#id7)
+  d. [Ejercicio 4.](#id7) \
+  e. [Ejercicio 5.](#id8) \
+  f. [Ejercicio 6.](#id9) \
+  g. [Ejercicio 7.](#id10) \
+  h. [Ejercicio 8.](#id11) \
+  i. [Ejercicio 9.](#id12) \
+  j. [Ejercicio 10.](#id13) 
 
 ## // Tareas previas <a name="id1"></a>
 
@@ -275,7 +281,7 @@ Para finalizar, se puede comprobar el funcionamiento del programa:
 
 [imagen]
 
-### /// Ejercicio 5 - Orden descendente
+### /// Ejercicio 5 - Orden descendente <a name="id8"></a>
 
 Para la realización del quinto ejercicio, se realiza la programación de la función `inDescendingOrder`.
 
@@ -317,7 +323,7 @@ Como se puede observar en la imagen a continuación, la salida del programa para
 
 [imagen]
 
-### /// Ejercicio 6 - Contando IPs
+### /// Ejercicio 6 - Contando IPs <a name="id9"></a>
 
 Durante el desarrollo de este sexto problema, se realiza la programación de la función `ipsRange`. Esta función, se encarga de 
 calcular el número de ips que existen dentro del rango de ips que es pasada como parámetro para la función.
@@ -364,7 +370,7 @@ Como se puede ver a continuación, la ejecución de dicho programa resulta:
 
 [imagen]
 
-### /// Ejercicio 7 - Wonder Woman
+### /// Ejercicio 7 - Wonder Woman <a name="id10"></a>
 
 En este séptimo ejercicio, se desarrolla la función `wonderWoman`. Esta función se encarga de obtener el número de cabezas que 
 tendrá el ser mitológico Cerberus tras una serie de ataques.
@@ -396,7 +402,7 @@ se pueden generar al atacar al ser mitológico Cerberus, se realiza la ejecució
 
 [imagen]
 
-### /// Ejercicio 8 - Entrenador Pokemon
+### /// Ejercicio 8 - Entrenador Pokemon <a name="id11"></a>
 
 Para la realización del ejercicio 8, se ha programado la función `pokemonTrainer`. Esta, permite obtener el daño que va a realizar 
 un Pokemon, dependiendo del tipo de Pokemon que sea el lanzado, el tipo de Pokemon del oponente, del ataque de nuestro Pokemon y de 
@@ -456,7 +462,7 @@ Como se puede observar a continuación, se puede comprobar el daño realizado po
 
 [imagen]
 
-### /// Ejercicio 9 - Astérix no entiende a estos romanos
+### /// Ejercicio 9 - Astérix no entiende a estos romanos <a name="id12"></a>
 
 Durante el desarrollo de la novena actividad, se realiza la programación de las funciones `romanToDecimal` y `decimalToRoman`. La 
 primera de estas se encarga de transformar un número romano a decimal. En cambio, la segunda se encarga de transformar un número 
@@ -575,7 +581,7 @@ distintos formatos introducidos:
 
 [imagen]
 
-### /// Ejercicio 10 - Distancia de Manhattan
+### /// Ejercicio 10 - Distancia de Manhattan <a name="id13"></a>
 
 Para la realización del décimo ejercicio, se realiza la función `manhattanDistance`. Esta, devuelve la distancia total que existe 
 entre dos puntos.
