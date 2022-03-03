@@ -30,7 +30,7 @@
  * distanceResult = 9; // Result
  * ```
  */
-function manhattanDIstance(p1Coordinate: number, p2Coordinate: number,
+function manhattanDistance(p1Coordinate: number, p2Coordinate: number,
     q1Coordinate: number, q2Coordinate: number, p3Coordinate: number = 0,
     q3Coordinate:number = 0): number {
   let result: number = 0;
@@ -39,6 +39,6 @@ function manhattanDIstance(p1Coordinate: number, p2Coordinate: number,
   return result;
 }
 
-const distanceResult = manhattanDIstance(-1, 3, -5, 8, 7, 7);
+const distanceResult = manhattanDistance(-1, 3, -5, 8, 7, 7);
 // eslint-disable-next-line max-len
 console.log(`La distancia de Manhattan entre ambos puntos es: ${distanceResult}`);
