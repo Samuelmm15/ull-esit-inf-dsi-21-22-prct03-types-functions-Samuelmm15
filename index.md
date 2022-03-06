@@ -408,7 +408,7 @@ Para la realización del ejercicio 8, se ha programado la función `pokemonTrain
 un Pokemon, dependiendo del tipo de Pokemon que sea el lanzado, el tipo de Pokemon del oponente, del ataque de nuestro Pokemon y de 
 la defensa de este.
 
-Teniendo en cuenta que la efectividad de nuestros Pokemon dependen del tipo de Pokemon del que se traten el nuestro y el de nuestro 
+Teniendo en cuenta que, la efectividad de nuestros Pokemon dependen del tipo de Pokemon del que se traten el nuestro y el de nuestro 
 oponente. Con esta efectividad, se determina el aumento del daño de nuestro Pokemon, o en caso contrario, de la neutralidad o de la 
 disminución del daño. Es por ello que para el desarrollo de la función, se ha debido de tener en cuenta muchas opciones que se 
 deben de cumplir para que la efectividad de nuestro Pokemon frente a otro, sea de un tipo o de otro.
@@ -468,7 +468,7 @@ Durante el desarrollo de la novena actividad, se realiza la programación de las
 primera de estas se encarga de transformar un número romano a decimal. En cambio, la segunda se encarga de transformar un número 
 decimal en números romanos.
 
-Para el desarrollo de la función `romanToDecimal` hay que tener en cuenta que se realiza el recorrido de todos los caracteres que 
+Para el desarrollo de la función `romanToDecimal` hay que tener en cuenta que, se realiza el recorrido de todos los caracteres que 
 conforman el número romano, de manera que se va añadiendo a una variable contador el resultado de convertir dichos números romanos 
 a números decimales. Pero, hay que tener en cuenta que cuando se produce que un número romano que es mayor que otro, se encuentra 
 inmediatamente a su derecha, se debe de realizar la resta del número mayor menos el menor. Su resultado es añadido a la variable 
