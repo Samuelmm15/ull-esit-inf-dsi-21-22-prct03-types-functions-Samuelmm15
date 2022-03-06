@@ -20,7 +20,7 @@ Para la realización de esta tercera práctica de la asignatura `Desarrollo de S
 lectura de una serie de documentos que serán necesarios para poder comprender ciertas cosas útiles para el desarrollo de la 
 práctica.
 
-Algunos de estos documentos que son necesarios para poder entender ciertas funciones que presenta el lenguaje son los 
+Algunos de estos documentos, permiten entender ciertas funciones que presenta el lenguaje. Estos son, los 
 documentos relacionados con las funciones útiles del [método string](https://www.w3schools.com/js/js_string_methods.asp) o el 
 uso de [expresiones regulares](https://www.w3schools.com/js/js_regexp.asp) en JavaScript.
 
@@ -32,7 +32,7 @@ desarrollo dirigido por comportamiento (BDD) para los proyectos.
 ## // Configuración inicial de los distintos aspectos del proyecto <a name="id2"></a>
 
 Para la realización de los distintos ejercicios solicitados en el [guión](https://ull-esit-inf-dsi-2122.github.io/prct03-types-functions/) 
-de la práctica 3, ha sido necesaria la creación de un nuevo proyecto denominado como P3, dentro de este se han configurado los 
+de la práctica 3, ha sido necesaria la creación de un nuevo proyecto denominado como P3. Dentro de este, se han configurado los 
 distintos ficheros que permiten realizar todo proyecto desarrollado en TypeScript.
 
 Para la creación de un nuevo proyecto en TypeScript se necesita la ejecución del comando:
@@ -291,7 +291,7 @@ número, sea ordenado de mayor a menor valor.
 Durante el desarrollo de dicha función, se transforma el número pasado como parámetro en un array. Esto se debe a que, aprovechando 
 la funcionalidad de la función `sort()` que presentan los arrays en JavaScript, permite ordenar los distintos elementos que 
 conforman el array de manera que pueden ser ordenados de menor a mayor. Con ello, se realiza la concatenación de los distintos 
-elementos del vector, de manera que se genera la ordenación de los elementos del vector de mayor a menor, y puede ser retornada la 
+elementos del vector, de manera que se genera la ordenación de los elementos del vector de mayor a menor, y pueda ser retornada la 
 ordenación como salida de la función desarrollada.
 
 Esto se puede observar a continuación en la programación de la función:
@@ -375,8 +375,8 @@ Como se puede ver a continuación, la ejecución de dicho programa resulta:
 En este séptimo ejercicio, se desarrolla la función `wonderWoman`. Esta función se encarga de obtener el número de cabezas que 
 tendrá el ser mitológico Cerberus tras una serie de ataques.
 
-Con ello, se debe de determinar que dependiendo del número de cabezas iniciales que Cerberus posea y dependiendo del número de 
-ataques que se le realicen, resultará un número de cabezas u otro, teniendo en cuenta que por cada ataque que se le realice a una 
+Con ello, se debe de determinar que, dependiendo del número de cabezas iniciales que Cerberus posea y dependiendo del número de 
+ataques que se le realicen, resultará un número de cabezas u otro, teniendo en cuenta que, por cada ataque que se le realice a una 
 cabeza, le aparecen "2 * n" cabezas.
 
 Con todo esto anterior, se ha realizado la programación de la función de manera:
@@ -397,8 +397,8 @@ function wonderWoman(initialHeads: number, nValue: number,
 }
 ```
 
-Como se puede observar, dependiendo de los valores introducidos inicialmente, permitiendo visualizar las distintas situaciones que 
-se pueden generar al atacar al ser mitológico Cerberus, se realiza la ejecución del programa de manera:
+Como se puede observar, dependiendo de los valores introducidos inicialmente, nos permite visualizar las distintas situaciones que 
+se pueden generar al atacar al ser mitológico Cerberus:
 
 [imagen]
 

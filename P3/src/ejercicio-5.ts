@@ -35,6 +35,6 @@ function inDescendingOrder(originalNumber: number): number {
   return auxiliaryResult;
 }
 
-const numberToConvert = inDescendingOrder(123456789);
+const numberToConvert = inDescendingOrder(42145);
 console.log(`El valor introducido, en orden descendente es ${numberToConvert}`);
 
